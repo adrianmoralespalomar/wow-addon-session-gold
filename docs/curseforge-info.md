@@ -8,6 +8,7 @@ Todo lo que se rellena en el proyecto de CurseForge, para copiarlo y pegarlo si 
 |---|---|
 | Project name | `Session Gold` |
 | Logo | `assets/logo.png` |
+| Images (pestaña del proyecto) | `assets/screenshots/bag-tooltip.png`: balance en la bolsa y tooltip con el detalle |
 | Class | Addons |
 | Main category | Auction & Economy o, si no existe, Miscellaneous |
 | Additional categories | Data Export, si existe |
