@@ -1,0 +1,18 @@
+## Interface: 16001
+## Title: Session Gold
+## Notes: Gold made and spent since you logged in, by source (loot, quests, vendor, repairs...), with gold per hour and a daily total.
+## Notes-esES: Oro ganado y gastado desde que entras, por origen (botín, misiones, vendedor, reparaciones...), con oro por hora y total del día.
+## Notes-esMX: Oro ganado y gastado desde que entras, por origen (botín, misiones, vendedor, reparaciones...), con oro por hora y total del día.
+## Author: seulgimomo
+## Version: 0.1.0
+## IconTexture: Interface\Icons\INV_Misc_Coin_02
+## SavedVariables: SessionGoldDB
+## SavedVariablesPerCharacter: SessionGoldCharDB
+## OptionalDeps: Baganator
+
+Locales.lua
+Config.lua
+SessionGold.lua
+Display.lua
+Options.lua
+Core.lua

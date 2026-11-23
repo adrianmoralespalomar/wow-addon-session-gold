@@ -1,0 +1,14 @@
+{
+  "name": "wow-addon-session-gold",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "logo": "node tools/render-logo.ts",
+    "link": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/link-addon.ps1",
+    "package": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/package-addon.ps1"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/node": "^26.6.6"
+  }
+}

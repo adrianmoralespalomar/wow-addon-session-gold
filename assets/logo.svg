@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2f2a"/>
+      <stop offset="1" stop-color="#0a1410"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffcf5a" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#ffcf5a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coinSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a8641a"/>
+      <stop offset="0.5" stop-color="#e9a83a"/>
+      <stop offset="1" stop-color="#9a5a16"/>
+    </linearGradient>
+    <linearGradient id="coinTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9a3"/>
+      <stop offset="1" stop-color="#f0b443"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#2fae5a"/>
+      <stop offset="1" stop-color="#7cf09a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#background)"/>
+  <circle cx="190" cy="230" r="170" fill="url(#glow)"/>
+
+  <!-- Coin stack: each coin is a side band and a top ellipse -->
+  <g stroke="#5a3210" stroke-width="5">
+    <path d="M70 310 v26 a90 26 0 0 0 180 0 v-26" fill="url(#coinSide)"/>
+    <ellipse cx="160" cy="310" rx="90" ry="26" fill="url(#coinTop)"/>
+    <path d="M70 270 v26 a90 26 0 0 0 180 0 v-26" fill="url(#coinSide)"/>
+    <ellipse cx="160" cy="270" rx="90" ry="26" fill="url(#coinTop)"/>
+    <path d="M70 230 v26 a90 26 0 0 0 180 0 v-26" fill="url(#coinSide)"/>
+    <ellipse cx="160" cy="230" rx="90" ry="26" fill="url(#coinTop)"/>
+    <path d="M70 190 v26 a90 26 0 0 0 180 0 v-26" fill="url(#coinSide)"/>
+    <ellipse cx="160" cy="190" rx="90" ry="26" fill="url(#coinTop)"/>
+  </g>
+  <ellipse cx="160" cy="190" rx="52" ry="13" fill="none" stroke="#c7801f" stroke-width="5"/>
+
+  <!-- Rising arrow -->
+  <path d="M300 330 V140 H262 L320 62 L378 140 H340 V330 Z" fill="url(#arrow)" stroke="#0f4a24" stroke-width="7" stroke-linejoin="round"/>
+</svg>
